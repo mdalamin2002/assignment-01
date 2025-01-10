@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.open-sans{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* header */
+.header-title{
+
+  display: flex;
+  justify-content: space-around;
+
+}
+.header-part{
+  font-size: 20;
+  font-weight: bold;
+  margin: 20px;
+  padding: 7px;
+}
+.header-btn{
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
+  color: #006A50;
+  border: 1px solid #006A50;
+  margin: 15px;
+  padding: 10px 30px;
+  border-radius: 6px;
+}
+/* banner */
+.banner-hero{
+  max-width: 790px;
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  background-color: #C6E4D6;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+ 
+  
+  
+}
+.banner-title{
+
+  color: #0E0E0E80;
+  padding: 4px;
+}
+.banner-description{
+  color: #0E0E0E;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+.banner-text{
+  
+
+}
+.banner-img{
+width: 300px;
+
+}
+.banner-btn{
+  background-color: #006A50;
+  color: white;
+  padding: 10px 30px ;
+  border: none;
+  border-radius: 7px;
+}
+/* banner card and box */
+.banner-header{
+  max-width: 790px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.banner-card{
+  max-width: 790px;
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+
+}
+.banner-box{
+  padding: 10px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius:5px;
+  margin-bottom: 20px;
+}
+.banner-box img{
+  width: 35px;
+  padding: 7px;
+}
+.banner-box h5{
+  font-size: 15px;
+  
+}
+.banner-box p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+main{
+  width: 790px;
+  margin: 0 auto;
+}
+.main-title{
+  font-size: 30px;
+  color: #0E0E0E;
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+.main-description{
+  color: #0E0E0E;
+  font-size: 10px;
+}
+/* main */
+.main-card{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  padding: 20px 0;
+}
+.main-img{
+  width: 35px;
+  padding: 7px;
+}
+.main-title{
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  color: #0E0E0E;
+}
+.card-box1{
+  background-color: #5490F533;
+  border-radius: 7px;
+}
+.card-box2{
+  background-color: #C6E4D6;
+  border-radius: 7px;
+}
+.card-box3{
+  background-color: #F7EBCF;
+  border-radius: 7px;
+}
+.main-btn1{
+  background-color: #5490F5;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
